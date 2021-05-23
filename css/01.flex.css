@@ -1,0 +1,26 @@
+.header-wrapper {background-color: #333; color: #fff; display: flex; justify-content: space-between; align-items: center;}
+.header-wrapper .logo {padding-left: 24px;}
+.header-wrapper .navi-wrap {display: flex;}
+.header-wrapper .navi-wrap .navi {padding: 24px; font-size: 20px; transition: all .5s;}
+.header-wrapper .navi-wrap .navi:hover {color: #333; background-color: bisque;}
+
+.wrapper {max-width: 1200px; margin: 100px auto; border: 10px solid red;
+	display: flex;
+	/* justify-content: flex-start; */
+	/* justify-content: flex-end; */
+	/* justify-content: center; */
+	justify-content: space-between;
+	/* justify-content: space-around; */
+	/* justify-content: space-evenly; */
+
+	align-items: stretch;
+	/* align-items: center; */
+	/* align-items: flex-start; */
+	/* align-items: flex-end; */
+}
+.wrapper > .box { background-color: aquamarine; text-align: center; font-size: 50px; border: 1px solid blue;}
+.wrapper > .box:nth-child(1) {width: 100px;}
+.wrapper > .box:nth-child(2) {width: 100px;}
+.wrapper > .box:nth-child(3) {width: 100px;}
+.wrapper > .box:nth-child(4) {width: 100px;}
+.wrapper > .box:nth-child(5) {width: 100px;}

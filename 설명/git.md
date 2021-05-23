@@ -15,5 +15,6 @@ git config --global user.email 'booldook@gmail.com'
 ```bash
 git clone https://github.com/booldook/2021-sc-html-05-flex.git
 ```
+![git clone](./img/git-clone.jpg)
 
 
