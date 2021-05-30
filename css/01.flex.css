@@ -22,7 +22,7 @@
 .wrapper > .box:nth-child(1) {width: 100px;}
 .wrapper > .box:nth-child(2) {width: 100px;}
 .wrapper > .box:nth-child(3) {width: 100px;}
-.wrapper > .box:nth-child(4) {width: 100px;}
+.wrapper > .box:nth-child(4) {width: 100px; align-self: flex-start;}
 .wrapper > .box:nth-child(5) {width: 100px;}
 
 
@@ -55,6 +55,7 @@
 	flex-grow: 0;		/* 늘어나는 속성: 기본값 0 - 늘어나지 않는 상태 */
 	flex-shrink: 1;	/* 줄어드는 속성: 기본값 1 - 줄어드는 상태 */
 	order: 0; 			/* 순서 속성: 기본값 0 - 숫자가 작으면 앞으로 크면 뒤로 */
+	/* flex: 0 1 100px; */
 }
 .wrapper3 > .box:hover {flex-grow: 5;}
 /* .wrapper3 > .box:hover {order: 6 !important;} */
